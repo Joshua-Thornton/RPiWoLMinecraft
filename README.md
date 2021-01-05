@@ -1,5 +1,5 @@
 # RPiWoLMinecraft
- Basic scripts to faciliate automated minecraft server booting over the internet. A Raspberry Pi Zero works nicely.
+ Basic scripts to facilitate automated minecraft server booting over the internet. A Raspberry Pi Zero works nicely.
  Not the best implementation of this idea, but it works for what I need it to do.
 
  # Premise
@@ -11,8 +11,12 @@
 # Usage
 (This example will be in the context of a minecraft server)
 
+This requires you to have a way to send wake on lan requests and socat
+
 Clone this repo onto your device using ```git clone https://github.com/Joshua-Thornton/RPiWoLMinecraft.git```
-```cd RPiWoLMinecraft.git```
+
+Change to the repo's directory using ```cd RPiWoLMinecraft```
+
 Make the script files executable using ```chmod +x start.sh end.sh command.sh```
 
 Edit ```start.sh``` with your preferred text editor and add your port where indicated. E.g port=5000
