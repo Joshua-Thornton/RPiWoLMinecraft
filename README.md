@@ -29,3 +29,5 @@ In my case, the traffic is created by adding the Raspberry Pi as a seperate serv
 Unfortunately, this does mean that players must have 2 server entries, the main server they will actually play on, and the RPi.
 
 You can end the script using ```./end.sh```
+
+Note: It's up to you to make the server automatically open when the device boots
